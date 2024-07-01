@@ -38,7 +38,7 @@ cd realtimestrategy
 
 2. Set up the frontend
 ```
-cd frontend
+cd client
 npm install
 ```
 
@@ -52,7 +52,7 @@ cargo build
 ## To run the project
 
 ```
-cd frontend
+cd client
 npm run
 ```
 This runs the react application in port 3000. If the port is already busy, it prompts to switch to another port
