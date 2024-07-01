@@ -31,28 +31,28 @@ List the software and tools you need to install before you can run the project.
 
 1. Clone the repository
 
-git clone https://github.com/arya626/realtimestrategy.git
-cd realtimestrategy
+git clone https://github.com/arya626/realtimestrategy.git <br/>
+'cd realtimestrategy'
 
 2. Set up the frontend
 
-cd frontend
-npm install
+'cd frontend'
+'npm install'
 
 3, Set up the backend
 
-cd ../backend
-cargo build
+'cd ../backend'
+'cargo build'
 
 ## To run the project
 
-cd frontend
-npm run
+'cd frontend'
+'npm run'
 
 This runs the react application in port 3000. If the port is already busy, it prompts to switch to another port
 
-cd backend
-cargo run
+'cd backend'
+'cargo run'
 
 This runs the server on http://127.0.0.1:8080/ or http://localhost:8080
 
