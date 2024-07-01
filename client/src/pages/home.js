@@ -12,7 +12,7 @@ function Home() {
         try {
           const jsonData = JSON.parse(e.target.result);
           let field = jsonData.layers[0].data;
-          field = field.map((item) => (item !== -1 ? 99 : item));
+          field = field.map((item) => (item !== -1 ? 4 : item));
           setData(field);
         } catch (error) {
           console.error("Error parsing JSON:", error);

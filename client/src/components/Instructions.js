@@ -1,5 +1,4 @@
 function Instructions({ pathCoords }) {
-  console.log(pathCoords);
   return (
     <div className="w-[40%] px-10 border-r-2 border-gray-200">
       <div className="text-left">

@@ -12,7 +12,6 @@ function Grid({ data }) {
   const [resMessage, setResMessage] = useState("");
 
   useEffect(() => {
-    console.log("changed");
     createGrid(data);
   }, [data]);
 
@@ -37,7 +36,6 @@ function Grid({ data }) {
         data: data,
       })
       .then(({ data }) => {
-        console.log(data);
         if (data.path_indices) {
           drawPath(data.path_indices);
           setPathIndices(data.path_indices);
