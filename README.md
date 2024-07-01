@@ -32,14 +32,14 @@ List the software and tools you need to install before you can run the project.
 1. Clone the repository
 
 ```
-git clone https://github.com/arya626/realtimestrategy.git <br/>
+git clone https://github.com/arya626/realtimestrategy.git
 cd realtimestrategy
 ```
 
 2. Set up the frontend
 ```
 cd frontend
-'npm install
+npm install
 ```
 
 3, Set up the backend
